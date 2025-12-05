@@ -1,15 +1,15 @@
 /* root variables */
 :root {
     /* base colour scheme */
-    --sixty: #080f08fe;   /* backgrounds and dark modifyer for gradients */
+    --sixty: #080f08;   /* backgrounds and dark modifyer for gradients */
     --thirty: #71f071;    /* text color */
     --ten: #005624;       /* accent color */
     
     /* base colour modifiers */
-    --sixty-darker: color-mix(in srgb, var(--sixty), #080f08fe 30%);
-    --thirty-darker: color-mix(in srgb, var(--thirty), #080f08fe 30%);
-    --thirty-darkest: color-mix(in srgb, var(--thirty-darker), #080f08fe 30%);
-    --ten-darker: color-mix(in srgb, var(--ten), #080f08fe 30%);
+    --sixty-darker: color-mix(in srgb, var(--sixty), #080f08 30%);
+    --thirty-darker: color-mix(in srgb, var(--thirty), #080f08 30%);
+    --thirty-darkest: color-mix(in srgb, var(--thirty-darker), #080f08 30%);
+    --ten-darker: color-mix(in srgb, var(--ten), #080f08 30%);
 
     /* background gradients */
     --background-gradient-primary: linear-gradient(to left, var(--sixty), var(--sixty-darker));
@@ -103,7 +103,7 @@
     grid-area: cta;
 }
 :root:has(#ThemeToggle:checked) {
-  --sixty: #cebf9bfe;
+  --sixty: #cebf9b;
   --thirty: #000000;
   --ten:   #634200;
 }
@@ -643,4 +643,5 @@ html {
         max-width: 48rem;
         width: 100%;
     }
+
 }
