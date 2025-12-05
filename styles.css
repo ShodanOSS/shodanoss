@@ -260,9 +260,10 @@ main {
     gap: 24px;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "hero" "hero"
-    "mission" "projects"
-    "skills" "skills"
+    "hero" 
+    "mission" 
+    "projects"
+    "skills" 
     "contact";
 }
 
@@ -645,6 +646,7 @@ html {
     }
 
 }
+
 
 
 
