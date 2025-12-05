@@ -270,6 +270,7 @@ main {
 /* Hero section */
 #Hero {
     border: 5px solid var(--ten);
+    box-sizing: border-box;
     padding: 22px;
     margin: 0;
     background: var(--background-hero);
@@ -646,6 +647,7 @@ html {
     }
 
 }
+
 
 
 
