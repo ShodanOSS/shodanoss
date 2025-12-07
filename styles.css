@@ -377,6 +377,15 @@ main {
     background: var(--background-projects-body);
     text-align: center;
 }
+#Projects .Font-Body,
+.Projects-Body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0.5rem;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--ten) transparent;
 
 /* Skills section */
 #Skills {
@@ -660,6 +669,7 @@ html {
     }
 
 }
+
 
 
 
