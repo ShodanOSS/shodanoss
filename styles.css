@@ -480,7 +480,7 @@ button, .btn {
     color: var(--sixty);
     background-color: var(--thirty);
 }
-/* Mission-Vision-Box scroll button */
+/* Mission-Vision-Box, Projects-Box scroll button */
 .Scroll-Down {
   display: block;
   text-align: center;
@@ -669,6 +669,7 @@ html {
     }
 
 }
+
 
 
 
